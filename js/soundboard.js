@@ -1,4 +1,4 @@
-function jack(){
+function sparrow(){
      var audio = document.getElementById("rum");
      audio.play();
                }
@@ -9,7 +9,7 @@ function trump(){
                }
 
 function croc(){
-    var audio = document.getElementById("knife");
+    var audio = document.getElementById("croc");
     audio.play();
               }
 
