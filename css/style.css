@@ -21,7 +21,7 @@ p {
 .main-blurb {
   font-size: 2em;
   font-family: monospace;
-  color: #ffffff; }
+  color: #000000; }
 
 body {
   font-family: "Acumin Pro ExtraCondensed", sans-serif;
@@ -31,14 +31,14 @@ body {
   width: 100%; }
 
 body {
-  width: 1300vw;
+  width: 1400vw;
   font-family: "Adso", sans-serif;
   background: #fafafa;
   color: #ffffff; }
 
 .panel {
   width: 100vw;
-  height: 100vh;
+  height: 97vh;
   background: #fafafa;
   display: flex;
   flex-flow: row wrap;
@@ -50,7 +50,7 @@ body {
 .title-panel {
   width: 100vw;
   height: 100vh;
-  background: #222222;
+  background: #fafafa;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -118,14 +118,16 @@ body {
 
 .hat-title {
   font-family: monospace;
-  font-size: 2em;
-  margin-bottom: 5vh; }
+  font-size: 2.3em;
+  margin-bottom: 5vh;
+  text-transform: uppercase; }
 
 .hat-info {
   font-family: monospace;
-  font-size: 1em;
-  width: auto;
-  height: auto; }
+  font-size: 1.3em;
+  width: 50%;
+  height: auto;
+  text-align: center; }
 
 * {
   padding: 0;

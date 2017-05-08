@@ -9,10 +9,34 @@
 	],
 "creatorBuild": "25504",
 "files": {
+	"\/audio\/chance.mp3": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/audio\/chance.mp3",
+		"oF": 0
+		},
+	"\/audio\/che.mp3": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/audio\/che.mp3",
+		"oF": 0
+		},
 	"\/audio\/croc.mp3": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/audio\/croc.mp3",
+		"oF": 0
+		},
+	"\/audio\/golf.mp3": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/audio\/golf.mp3",
+		"oF": 0
+		},
+	"\/audio\/helmet.mp3": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/audio\/helmet.mp3",
 		"oF": 0
 		},
 	"\/audio\/indiana.mp3": {
@@ -27,10 +51,16 @@
 		"oAP": "\/audio\/marty.mp3",
 		"oF": 0
 		},
-	"\/audio\/rum.mp3": {
+	"\/audio\/rocky.mp3": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/audio\/rum.mp3",
+		"oAP": "\/audio\/rocky.mp3",
+		"oF": 0
+		},
+	"\/audio\/sparrow.mp3": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/audio\/sparrow.mp3",
 		"oF": 0
 		},
 	"\/audio\/trump.mp3": {
@@ -136,14 +166,6 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
-		},
-	"\/hats\/395F7C144DF8883F.png": {
-		"ft": 32768,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/hats\/395F7C144DF8883F.png",
-		"oF": 0,
-		"opt": 1
 		},
 	"\/hats\/apollo-creed.svg": {
 		"ft": 2097152,
@@ -273,6 +295,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/hats\/sherlock.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/hats\/sherlock.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/hats\/suess.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -325,6 +357,24 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		}
 	},
 "hooks": [

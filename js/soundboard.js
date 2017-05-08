@@ -1,24 +1,49 @@
-function sparrow(){
-     var audio = document.getElementById("rum");
-     audio.play();
-               }
+function sparrow() {
+    var audio = document.getElementById("sparrow");
+    audio.play();
+}
 
-function trump(){
-     var audio = document.getElementById("china");
-     audio.play();
-               }
+function trump() {
+    var audio = document.getElementById("china");
+    audio.play();
+}
 
-function croc(){
+function croc() {
     var audio = document.getElementById("croc");
     audio.play();
-              }
+}
 
-function marty(){
-   var audio = document.getElementById("backtofuture");
-   audio.play();
-             }
+function marty() {
+    var audio = document.getElementById("marty");
+    audio.play();
+}
 
-function indiana(){
-  var audio = document.getElementById("plane");
+function indiana() {
+    var audio = document.getElementById("indiana");
+    audio.play();
+}
+
+function chance() {
+    var audio = document.getElementById("chance");
+    audio.play();
+}
+
+function helmet() {
+    var audio = document.getElementById("helmet");
+    audio.play();
+}
+
+function rocky() {
+    var audio = document.getElementById("rocky");
+    audio.play();
+}
+
+function golf(){
+  var audio = document.getElementById("golf");
   audio.play();
             }
+
+            function che(){
+              var audio = document.getElementById("che");
+              audio.play();
+                        }
