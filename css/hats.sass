@@ -10,7 +10,7 @@
 
 .hat-style-1
   width: 20vw
-  height: 20vw
+  height:auto
   margin-bottom: 15vh
   display: block
   margin-left: auto
@@ -35,7 +35,7 @@
 
 .shadow
   width: 20vw
-  height: 3vh
+  height: 1vw
   border-radius: 50%
   background: #999999
   display: block
@@ -52,11 +52,11 @@
 
   @keyframes shadowgrow
     0%
-      width: 20vw
+      transform: scale(0%)
     50%
-     width: 22vw
+     transform: scale(50%)
     100%
-      width: 20vw
+      transform: scale(0%)
 
 .hat-title
   font-family: monospace
@@ -67,6 +67,23 @@
 .hat-info
   font-family: monospace
   font-size: 1.3em
-  width: 50%
   height: auto
   text-align: center
+
+
+.brand
+  width: 30vw
+  height:auto
+  margin-bottom: 15vh
+  display: block
+  margin-left: auto
+  margin-right: auto
+
+
+@media screen and (max-width: 800px)
+  .brand
+    width: 50vw
+  .hat-style-1
+    width: 50vw
+  .shadow
+    width: 50vw
