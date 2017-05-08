@@ -33,6 +33,12 @@
 		"oAP": "\/audio\/golf.mp3",
 		"oF": 0
 		},
+	"\/audio\/hatter.mp3": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/audio\/hatter.mp3",
+		"oF": 0
+		},
 	"\/audio\/helmet.mp3": {
 		"ft": 8192,
 		"oA": 2,
@@ -55,6 +61,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/audio\/rocky.mp3",
+		"oF": 0
+		},
+	"\/audio\/sherlock.mp3": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/audio\/sherlock.mp3",
 		"oF": 0
 		},
 	"\/audio\/sparrow.mp3": {

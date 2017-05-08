@@ -58,10 +58,6 @@ body {
   flex-direction: row;
   float: left; }
 
-@media screen and (max-width: 800px) {
-  body {
-    height: 90vh; } }
-
 .hat-box {
   width: 75vw;
   height: 75vh;
@@ -71,9 +67,18 @@ body {
   justify-content: center;
   align-items: center; }
 
+.hat-wrapper {
+  height: 500px;
+  width: 400px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row; }
+
 .hat-style-1 {
-  width: 20vw;
-  margin-bottom: 15vh;
+  width: 300px;
+  padding: 30px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -84,7 +89,7 @@ body {
   cursor: pointer; }
 
 .hat-style-1:hover {
-  width: 21vw; }
+  opacity: 0.8; }
 
 @keyframes float {
   0% {
@@ -95,14 +100,14 @@ body {
     transform: translateY(0); } }
 
 .shadow {
-  width: 20vw;
-  height: 1vw;
+  width: 300px;
+  height: 30px;
   border-radius: 50%;
   background: #999999;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 5vh;
+  margin-bottom: 3em;
   animation-name: shadowgrow;
   animation-iteration-count: infinite;
   animation-duration: 2.5s;
@@ -113,16 +118,16 @@ body {
 
 @keyframes shadowgrow {
   0% {
-    transform: scale(0%); }
+    transform: scale(1); }
   50% {
-    transform: scale(50%); }
+    transform: scale(1.1); }
   100% {
-    transform: scale(0%); } }
+    transform: scale(1); } }
 
 .hat-title {
   font-family: monospace;
   font-size: 2.3em;
-  margin-bottom: 5vh;
+  margin-bottom: 2em;
   text-transform: uppercase; }
 
 .hat-info {
@@ -132,19 +137,32 @@ body {
   text-align: center; }
 
 .brand {
-  width: 30vw;
-  margin-bottom: 15vh;
+  width: 400px;
+  margin-bottom: 3em;
   display: block;
   margin-left: auto;
   margin-right: auto; }
 
+.main-blurb {
+  font-size: 1.8em;
+  font-family: monospace;
+  color: #000000; }
+
 @media screen and (max-width: 800px) {
   .brand {
-    width: 50vw; }
+    width: 200px; }
   .hat-style-1 {
-    width: 50vw; }
+    width: 200px; }
   .shadow {
-    width: 50vw; } }
+    width: 200px;
+    height: 5px; }
+  .hat-title {
+    font-size: 1.8em; }
+  .hat-info {
+    font-size: 1em; }
+  .hat-box {
+    width: 90vw;
+    height: 100vh; } }
 
 * {
   padding: 0;

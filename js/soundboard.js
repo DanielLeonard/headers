@@ -38,12 +38,27 @@ function rocky() {
     audio.play();
 }
 
-function golf(){
-  var audio = document.getElementById("golf");
-  audio.play();
-            }
+function golf() {
+    var audio = document.getElementById("golf");
+    audio.play();
+}
 
-            function che(){
-              var audio = document.getElementById("che");
-              audio.play();
-                        }
+function che() {
+    var audio = document.getElementById("che");
+    audio.play();
+}
+
+function sherlock() {
+    var audio = document.getElementById("sherlock");
+    audio.play();
+}
+
+function hatter() {
+    var audio = document.getElementById("hatter");
+    audio.play();
+}
+
+function suess() {
+    var audio = document.getElementById("hatter");
+    audio.play();
+}
